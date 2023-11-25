@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+    font-family: verdana, Arial, Helvetica, sans-serif;
+    padding: 1px;
+}

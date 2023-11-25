@@ -1,0 +1,103 @@
+
+.header {
+    width: 100%;
+    background-color: rgb(235, 235, 235);
+}
+
+.headings {
+    display: flex;
+    vertical-align: top;
+    padding: 1px;
+}
+
+.headings .title {
+    width: 40%;
+    display: inline;
+}
+
+.title img{
+    border: 1px solid rgb(0, 0, 0);
+    object-position: left;
+    object-fit: contain;
+    height: 14px;
+}
+
+.title {
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(0, 0, 71);
+    margin: 5px;
+}
+
+.accounts {
+    width: 60%;
+    display: inline-block;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+h1:hover {
+    cursor: pointer;
+}
+
+.acc_head {
+    height: 17px;
+    object-fit: contain;
+    text-align: center;
+    margin: 1px 2px 1px
+}
+
+
+.acc_head:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.acc_head img{
+    width: 10px;
+    height: auto;
+    margin-right: 0px;
+}
+
+.acc_head {
+    font-size: x-small;
+    padding: 0px;
+    padding-left: 5px;
+}
+
+
+
+.sub_headings {
+    padding-left: 5px;
+}
+
+.sub_headings {
+    border-top: 1px solid black;    
+    display: flex;    
+}
+
+.subHead{
+    vertical-align: top;
+    font-size: small;
+    margin: 1px 5px 1px;
+    text-align: center;
+}
+
+.sub_headings .title {
+    color: rgb(39, 39, 255);
+    font-weight: bold;
+}
+
+.opt {
+    padding: 1px 5px 1px;
+    border-radius: 30%;
+    transition: font-weight 0.1s, background-color 0.5s;
+}
+
+.opt:hover {
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
